@@ -1,0 +1,16 @@
+{
+  "name": "sentryproduction",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/sentry": "^4.3.4",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {}
+}
